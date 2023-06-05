@@ -1,0 +1,51 @@
+.problem {
+    /*box-shadow: 1px 1px 28px 1px rgb(0 0 0 / 30%);*/
+
+}
+
+.problem-navbar {
+    padding: 10px;
+
+}
+
+.problem-nav-item {
+    padding: 15px;
+    margin: 0 10px;
+}
+
+
+.active {
+    background-color: #1535d7;
+    border-radius: 5px;
+}
+
+.active a {
+    color: #fff !important;
+}
+
+.active a:hover {
+    color: #fff !important;
+}
+
+.problem-info {
+    padding: 30px 35px !important;
+    box-shadow: 1px 1px 28px 1px rgb(0 0 0 / 30%);
+}
+
+.problem-info span {
+    font-size: 14px;
+    color: #fff;
+    padding: 0 6px;
+}
+
+.time-limit {
+    background: #00bc8c;
+}
+
+.memory-limit {
+    background: #1535d7;
+}
+
+.difficulty {
+    background: #d71515;
+}

@@ -67,14 +67,14 @@ a:hover {
 }
 
 .wrong {
-    color: #1535d7 !important;
+    color: #d71515 !important;
 }
 
 .blue-hover:hover {
     color: #1535d7 !important;
 }
 
-.accepted {
+.accepted, .green {
     color: #00bc8c !important
 }
 
