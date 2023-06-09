@@ -87,6 +87,6 @@
 
 
 .table-blue th {
-    background: #1535d7;
-    color: #fff;
+    background: #1535d7!important;
+    color: #fff!important;
 }
