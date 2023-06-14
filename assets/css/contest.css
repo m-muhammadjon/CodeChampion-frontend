@@ -31,3 +31,9 @@
     color: #fff !important;
     border-radius: 20px;
 }
+
+.problem-item{
+    background: #fff;
+    border: #1535d7 1px solid;
+    border-radius: 5px;
+}
