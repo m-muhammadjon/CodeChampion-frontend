@@ -17,8 +17,6 @@
 
     <!-- Including css file -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/contest.css">
-
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-white top-header">
@@ -89,8 +87,8 @@
 
                         <div><i class="fa-light fa-clock fa-fade"></i> <span>01:15:23</span></div>
                     </div>
-                    <div class="standings">
-                        <table class="table mt-3 table-blue">
+                    <div class="standings" style="overflow-x: scroll;">
+                        <table class="table mt-3 table-blue standings-table" style="width: max-content;">
                             <thead>
                             <tr class="table-primary">
                                 <th>#</th>
@@ -98,45 +96,483 @@
                                 <th style="width: 35px"><i class="fa-light fa-ballot-check"></i></th>
                                 <th>Ball</th>
                                 <th>Jarima</th>
-                                <th><a href="" class="text-white problem-standing">A</a></th>
-                                <th><a href="" class="text-white problem-standing">B</a></th>
-                                <th><a href="" class="text-white problem-standing">C</a></th>
-                                <th><a href="" class="text-white problem-standing">D</a></th>
-                                <th><a href="" class="text-white problem-standing">E</a></th>
-                                <th><a href="" class="text-white problem-standing">F</a></th>
-                                <th><a href="" class="text-white problem-standing">G</a></th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">A</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">B</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">C</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">D</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">E</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">F</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">G</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">H</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">I</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">J</a>
+                                </th>
+                                <th class="text-center" style="width: 100px!important;"><a href=""
+                                                                                           class="text-white problem-standing">K</a>
+                                </th>
+
                             </thead>
                             <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Muhammadjon</td>
+                                <td class="align-center">Muhammadjon</td>
                                 <td>4</td>
                                 <td>40</td>
                                 <td>536</td>
                                 <td>
-                                    <span>+1</span>
-                                    <p class="time">03:12</p>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+1</span>
+                                        <p class="time">03:12</p>
+                                    </div>
                                 </td>
                                 <td>
-                                    <span>+</span>
-                                    <p class="time">08:12</p>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">08:12</p>
+                                    </div>
                                 </td>
                                 <td>
-                                    <span>+</span>
-                                    <p class="time">11:12</p>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">11:12</p>
+                                    </div>
                                 </td>
                                 <td>
-                                    <span>+4</span>
-                                    <p class="time">22:12</p>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
                                 </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="align-center">Muhammadjon</td>
+                                <td>4</td>
+                                <td>40</td>
+                                <td>536</td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span class="accepted">+1</span>
+                                        <p class="time">03:12</p>
+                                    </div>
+                                </td>
+                                <td class="bg-primary">
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span class="wrong">+</span>
+                                        <p class="time">08:12</p>
+                                    </div>
+                                </td>
+                                <td class="bg-primary">
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span class="wrong">+</span>
+                                        <p class="time">11:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span class="wrong">+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>1</td>
+                                <td class="align-center">Muhammadjon</td>
+                                <td>4</td>
+                                <td>40</td>
+                                <td>536</td>
+                                <td class="bg-secondary">
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span class="accepted">+1</span>
+                                        <p class="time">03:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">08:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">11:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="align-center">Muhammadjon</td>
+                                <td>4</td>
+                                <td>40</td>
+                                <td>536</td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+1</span>
+                                        <p class="time">03:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">08:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">11:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="align-center">Muhammadjon</td>
+                                <td>4</td>
+                                <td>40</td>
+                                <td>536</td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+1</span>
+                                        <p class="time">03:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">08:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">11:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="align-center">Muhammadjon</td>
+                                <td>4</td>
+                                <td>40</td>
+                                <td>536</td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+1</span>
+                                        <p class="time">03:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">08:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+</span>
+                                        <p class="time">11:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <span>+4</span>
+                                        <p class="time">22:12</p>
+                                    </div>
+                                </td>
                             </tr>
 
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>

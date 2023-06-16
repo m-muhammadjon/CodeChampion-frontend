@@ -32,26 +32,39 @@
     border-radius: 20px;
 }
 
-.problem-item{
+.problem-item {
     background: #fff;
     border: #1535d7 1px solid;
     border-radius: 5px;
     padding: 2px 10px;
 }
 
-.problem-item:hover{
+.problem-item:hover {
     background: #1535d7;
     color: #fff;
 }
 
-.problem-item:hover *{
+.problem-item:hover * {
     color: #fff;
 }
 
-.problem-symbol{
+.problem-symbol {
     font-size: 20px;
 }
 
-.problem-standing{
-    width: 50px;
+.problem-standing {
+    min-width: 85px !important;
+}
+
+
+.standings-table {
+    overflow-x: auto;
+}
+
+.standings-table tbody td {
+    vertical-align: middle;
+}
+
+table.standings-table .me{
+    background-color: lightgreen;
 }
