@@ -65,6 +65,10 @@
     vertical-align: middle;
 }
 
-table.standings-table .me{
+table.standings-table .me {
     background-color: lightgreen;
+}
+
+.first-solved {
+    background: #eef4ed !important;
 }
